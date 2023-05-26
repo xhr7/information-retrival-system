@@ -5,12 +5,9 @@ First I created 12 document, 10 of them talk about data structures and 2 talk ab
 then I Index my data using the indexing techniques 
 Text Indexing techniques:
 1-Word Exraction
-
 -Tokenization 
-
 -Lower casing
-
--Stop words removel
+-Stop words removel 
 
 2-Normalization
 -Stemming
