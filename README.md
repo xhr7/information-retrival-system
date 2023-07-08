@@ -3,8 +3,11 @@ Information Retrival process: Indexing ,Matching,Resulte.
 Create a System to index and search 10 textual documents (.txt files) and I uploaded it to the drive to make it easier to use in Google Colab
 First I created 12 document, 10 of them talk about data structures and 2 talk about completely different topics, one about birds and the other about saffron.
 then I Index my data using the indexing techniques 
+
 Text Indexing techniques:
+
 1-Word Exraction
+
 -Tokenization 
 -Lower casing
 -Stop words removel 
