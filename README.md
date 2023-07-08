@@ -4,17 +4,22 @@ Create a System to index and search 10 textual documents (.txt files) and I uplo
 First I created 12 document, 10 of them talk about data structures and 2 talk about completely different topics, one about birds and the other about saffron.
 then I Index my data using the indexing techniques 
 
-Text Indexing techniques:
+1- Text Indexing techniques:
 
-1-Word Exraction
+-Word Exraction
 
 -Tokenization 
+
 -Lower casing
+
 -Stop words removel 
 
 2-Normalization
+
 -Stemming
+
 -Lemmatization
+
 3-Term weighting methods
 -TF*IDF
 I started use word extraction,First I used the tokenise, I separated all the words in the file and also deleted the punctuation marks and special characters then Stop words removel I have deleted all the words in the stop word in ntlk library ,After that I converted all the text to lowercase ,And the second thing she used was the Lemmatization and stemming are two text normalization techniques that aim to reduce inflected words to their base form (i.e., lemma or root form). While both techniques have their own advantages and disadvantages, using them together can often yield better results than using either technique alone.
