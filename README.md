@@ -2,7 +2,9 @@
 
 
 
-![750B8482-E7AC-4334-926E-A954024000C1_1_102_o](https://github.com/xhr7/information-retrival-system/assets/102740867/700fa55d-5909-4253-8c7d-0d575504f7c3)
+https://github.com/xhr7/information-retrival-system/assets/102740867/6dd6875c-1116-42b5-b07c-6942e2618a75
+
+
 
 
 Information Retrival process: Indexing ,Matching,Resulte.
