@@ -2,7 +2,7 @@
 
 
 
-![750B8482-E7AC-4334-926E-A954024000C1_1_102_o](https://github.com/xhr7/information-retrival-system/assets/102740867/a5d0964a-11de-43af-b71c-c98a7b35d893)
+![750B8482-E7AC-4334-926E-A954024000C1_1_102_o](https://github.com/xhr7/information-retrival-system/assets/102740867/825bea5e-3c21-430e-aba6-0dd6cefcf392)
 
 
 
