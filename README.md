@@ -6,6 +6,13 @@ https://github.com/xhr7/information-retrival-system/assets/102740867/6dd6875c-11
 
 
 
+An information retrieval system is a software solution for storing, managing, and retrieving information. It interprets user queries, searches a database, and delivers relevant results. Key components include databases, search engines, and query processors. These systems are widely used in web search engines, digital libraries, and corporate data management. They face challenges like handling vast data volumes, processing complex queries, and delivering prompt, relevant results.
+
+
+
+
+
+
 
 Information Retrival process: Indexing ,Matching,Resulte.
 Create a System to index and search 10 textual documents (.txt files) and I uploaded it to the drive to make it easier to use in Google Colab
