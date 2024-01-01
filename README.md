@@ -1,4 +1,11 @@
 # information-retrival-system
+
+
+
+![750B8482-E7AC-4334-926E-A954024000C1_1_102_o](https://github.com/xhr7/information-retrival-system/assets/102740867/a5d0964a-11de-43af-b71c-c98a7b35d893)
+
+
+
 Information Retrival process: Indexing ,Matching,Resulte.
 Create a System to index and search 10 textual documents (.txt files) and I uploaded it to the drive to make it easier to use in Google Colab
 First I created 12 document, 10 of them talk about data structures and 2 talk about completely different topics, one about birds and the other about saffron.
