@@ -1,48 +1,63 @@
-# information-retrival-system
+# 🧠 Information Retrieval System
 
+![Demo](https://github.com/xhr7/information-retrival-system/assets/102740867/6dd6875c-1116-42b5-b07c-6942e2618a75)
 
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![NLTK](https://img.shields.io/badge/NLTK-NLP-green?style=for-the-badge)](https://www.nltk.org/)
+[![TF-IDF](https://img.shields.io/badge/TF--IDF-TermWeighting-orange?style=for-the-badge)]()
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-yellow?style=for-the-badge&logo=scikitlearn)](https://scikit-learn.org/)
+[![Flask](https://img.shields.io/badge/Flask-UsedForUI-black?style=for-the-badge&logo=flask)]()
+[![Google Colab](https://img.shields.io/badge/Colab-EasyRun-orange?style=for-the-badge&logo=googlecolab)]()
 
-https://github.com/xhr7/information-retrival-system/assets/102740867/6dd6875c-1116-42b5-b07c-6942e2618a75
+---
 
+## 🌐 Overview
 
+This is a mini search engine that simulates how Information Retrieval (IR) systems work.  
+The system can:
+- Index `.txt` documents
+- Process user queries
+- Rank documents by relevance using **TF-IDF** and **cosine similarity**
+- Display results using a simple **Flask-based web interface**
 
-An information retrieval system is a software solution for storing, managing, and retrieving information. It interprets user queries, searches a database, and delivers relevant results. Key components include databases, search engines, and query processors. These systems are widely used in web search engines, digital libraries, and corporate data management. They face challenges like handling vast data volumes, processing complex queries, and delivering prompt, relevant results.
+---
 
+## 📦 Features
 
+- Tokenization & preprocessing (stopwords, casing, punctuation)
+- Stemming & lemmatization (combined for better normalization)
+- TF-IDF term weighting
+- Query vectorization
+- Cosine similarity scoring
+- Web interface with Flask
+- Returns ranked list of relevant files
 
+---
 
+## 🧰 Technologies Used
 
+- ![Python](https://img.shields.io/badge/-Python-informational?style=flat&logo=python&logoColor=white&color=3670A0)
+- ![NLTK](https://img.shields.io/badge/-NLTK-green?style=flat&logo=nltk&logoColor=white)
+- ![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-orange?style=flat&logo=scikit-learn&logoColor=white)
+- ![Flask](https://img.shields.io/badge/-Flask-black?style=flat&logo=flask&logoColor=white)
+- ![Google Colab](https://img.shields.io/badge/-Google_Colab-yellow?style=flat&logo=googlecolab&logoColor=white)
 
+---
 
-Information Retrival process: Indexing ,Matching,Resulte.
-Create a System to index and search 10 textual documents (.txt files) and I uploaded it to the drive to make it easier to use in Google Colab
-First I created 12 document, 10 of them talk about data structures and 2 talk about completely different topics, one about birds and the other about saffron.
-then I Index my data using the indexing techniques 
+## 🗂️ Project Structure
 
-1- Text Indexing techniques:
-
--Word Exraction
-
--Tokenization 
-
--Lower casing
-
--Stop words removel 
-
-2-Normalization
-
--Stemming
-
--Lemmatization
-
-3-Term weighting methods
-
--TF*IDF
-
-I started use word extraction,First I used the tokenise, I separated all the words in the file and also deleted the punctuation marks and special characters then Stop words removel I have deleted all the words in the stop word in ntlk library ,After that I converted all the text to lowercase ,And the second thing she used was the Lemmatization and stemming are two text normalization techniques that aim to reduce inflected words to their base form (i.e., lemma or root form). While both techniques have their own advantages and disadvantages, using them together can often yield better results than using either technique alone.
-Stemming involves removing suffixes from words to obtain their root form. This process is relatively simple and fast, but it can sometimes result in incorrect stems, as some words may have multiple possible stems. For example, the word "running" could be stemmed to "run" or "running", depending on the specific stemming algorithm used.
-Lemmatization, on the other hand, involves using a dictionary or morphological analysis to determine the base form of a word. This technique is more accurate than stemming, as it takes into account the context and part of speech of the word. However, it is also more computationally intensive and slower than stemming.
-By combining stemming and lemmatization, we can take advantage of the speed and simplicity of stemming while also correcting some of its errors using lemmatization. This can result in better text normalization, which can ultimately improve the performance of downstream natural language processing tasks such as text classification or information retrieval.
-then I use TF_IDF for weight for each word , the importent word should haa imprtent wegight
-
-Then we allow the user to enter the query, and we also do an index for it. The last thing we start is to calculate the similarity between the query that the user entered and the files in the drive, and the files closest to the user's query are returned to me in descending order.
+```bash
+📁 doc/
+│   ├── birds.txt               # Unrelated topic
+│   ├── saffron.txt             # Unrelated topic
+│   ├── stack.txt               # Related to data structures
+│   ├── queue.txt
+│   ├── ...
+│
+📁 doc_clear/                   # Cleaned documents after preprocessing
+│   ├── stack.txt
+│   ├── queue.txt
+│   └── ...
+│
+📄 project_final.ipynb          # Final implementation notebook with all logic
+📄 app.py                       # Flask code for running the user interface
