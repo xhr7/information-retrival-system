@@ -35,13 +35,6 @@ The system can:
 
 ---
 
-## 🧰 Technologies Used
-
-- ![Python](https://img.shields.io/badge/-Python-informational?style=flat&logo=python&logoColor=white&color=3670A0)
-- ![NLTK](https://img.shields.io/badge/-NLTK-green?style=flat&logo=nltk&logoColor=white)
-- ![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-orange?style=flat&logo=scikit-learn&logoColor=white)
-- ![Flask](https://img.shields.io/badge/-Flask-black?style=flat&logo=flask&logoColor=white)
-- ![Google Colab](https://img.shields.io/badge/-Google_Colab-yellow?style=flat&logo=googlecolab&logoColor=white)
 
 ---
 
@@ -62,3 +55,45 @@ The system can:
 │
 📄 project_final.ipynb          # Final implementation notebook with all logic
 📄 app.py                       # Flask code for running the user interface
+```
+
+
+
+
+## 🧪 How It Works (Workflow)
+
+1. **Document Collection**
+   - 12 `.txt` files created: 10 about data structures, 2 on unrelated topics ("birds", "saffron")
+
+2. **Preprocessing**
+   - Tokenization
+   - Lowercasing
+   - Stopword removal using `nltk`
+   - Punctuation & special character removal
+   - Stemming + Lemmatization for better normalization
+
+3. **Indexing**
+   - Vector representation using **TF-IDF**
+   - Weighting each word based on its importance in the document
+
+4. **Query Handling**
+   - User inputs query
+   - Query processed using same steps as documents
+
+5. **Ranking**
+   - Calculate cosine similarity between query vector and each document
+   - Return top relevant files (ranked descending)
+  
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+- Python 3.10+
+- Google Colab (recommended)
+- Basic knowledge of NLP concepts
+
+### ⚙️ Installation
+
+```bash
+git clone https://github.com/xhr7/information-retrival-system.git
+cd information-retrival-system
