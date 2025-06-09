@@ -1,6 +1,7 @@
 # 🧠 Information Retrieval System
 
-![Demo](https://github.com/xhr7/information-retrival-system/assets/102740867/6dd6875c-1116-42b5-b07c-6942e2618a75)
+[![Demo](https://github.com/xhr7/information-retrival-system/assets/102740867/6dd6875c-1116-42b5-b07c-6942e2618a75)](https://github.com/xhr7/information-retrival-system/assets/102740867/6dd6875c-1116-42b5-b07c-6942e2618a75
+)
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 [![NLTK](https://img.shields.io/badge/NLTK-NLP-green?style=for-the-badge)](https://www.nltk.org/)
