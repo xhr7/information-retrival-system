@@ -21,19 +21,18 @@ The system can:
 - Rank documents by relevance using **TF-IDF** and **cosine similarity**
 - Display results using a simple **Flask-based web interface**
 
----
 
 ## 📦 Features
 
-- Tokenization & preprocessing (stopwords, casing, punctuation)
-- Stemming & lemmatization (combined for better normalization)
-- TF-IDF term weighting
-- Query vectorization
-- Cosine similarity scoring
-- Web interface with Flask
-- Returns ranked list of relevant files
-
----
+| Feature                       | Description                                                                 |
+|------------------------------|-----------------------------------------------------------------------------|
+| Tokenization & Preprocessing | Handles punctuation, lowercasing, and stopwords removal                    |
+| Stemming & Lemmatization     | Combines both techniques for better word normalization                     |
+| TF-IDF Term Weighting        | Assigns importance scores to terms based on frequency & uniqueness         |
+| Query Vectorization          | Transforms user input into a vector using the same preprocessing pipeline  |
+| Cosine Similarity Scoring    | Measures similarity between query and documents                            |
+| Flask Web Interface          | Simple web UI for entering queries and viewing ranked results              |
+| Ranked File Output           | Displays documents sorted by relevance to the user's query                 |
 
 
 ---
